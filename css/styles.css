@@ -1,0 +1,114 @@
+body {
+  font-family: Roboto;
+}
+
+#title {
+  background-color: #213170;
+}
+
+.title-container {
+  padding: 3% 15%;
+}
+
+.greeting-h1 {
+  color: #87ff72;
+  font-family: Anton;
+}
+
+.greeting-p {
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+nav {
+  margin-bottom:10%;
+}
+
+.navbar {
+  padding-left:0;
+}
+
+.navbar-item {
+  padding: 0 10px;
+}
+
+.title-img {
+  margin-left:15%;
+  transform: rotate(10deg);
+}
+
+.title-btn {
+  margin:5% 3% 0 0;
+}
+
+/* Area 2 */
+
+#area-2 {
+  background-color: #87ff72;
+  padding: 30px;
+}
+
+.area-2-h1 {
+  color:#373D3F;
+  margin:0 0 2% 0;
+}
+
+#area-3 {
+  background-color:#f1f3f5;
+}
+
+.area-3-items {
+  padding:5%;
+}
+
+.area-3-icons {
+  color:#213170;
+  padding-bottom:4%;
+  font-size:7vw;
+}
+
+.area-3-icons:hover {
+  color:#428bca;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 991px) {
+  .area-3-icons {
+    font-size:20vw;
+  }
+}
+
+.area-3-heading {
+  font-family: Anton;
+  padding-bottom:2%;
+}
+
+.area-3-text {
+  line-height:2rem;
+}
+
+/* area four */
+
+#area-4 {
+  background-color: #87ff72;
+  padding: 3% 15%;
+}
+
+.area-4-img {
+  width: 15%;
+  border-radius: 100%;
+  margin:30px 20px 20px 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .area-4-img {
+    width:30%;
+  }
+}
+
+.area-4-text {
+  font-size:1.5rem;
+}
